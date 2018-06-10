@@ -488,7 +488,7 @@ section#packs{
 }
 
 .feature .europe-images:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 4px 6px 15px #888;
 }
 
@@ -646,6 +646,7 @@ section#packs{
 .destinations_item img {
 	box-shadow: 4px 4px 10px #888;
   width: 100%;
+	height: 200px;
 	-webkit-transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
@@ -668,10 +669,10 @@ section#packs{
   padding-top: 20%;
 }
 .destinations_item:hover img{
-	-webkit-transform: translateY(-3px);
-	-moz-transform: translateY(-3px);
-	-ms-transform: translateY(-3px);
-	transform: translateY(-3px);
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
   box-shadow: 4px 6px 15px #888;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
