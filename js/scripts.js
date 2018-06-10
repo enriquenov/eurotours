@@ -7,7 +7,7 @@
      4. Magnific popup call
      5. ANIMATION
      6. Menu button
-     7. Portfolio popup content
+     7. Destinations popup content
      8. slide toggle read more
      9. Counter
 
@@ -15,22 +15,22 @@
  ================================================  */
 
 $(document).ready(function() {
-	
+
 	"use strict";
 		$(".loader_inner").fadeOut();
 		$(".loader").delay(400).fadeOut("fast");
 
 // ######### video background #########
 $('.video').YTPlayer({
-  videoId: 'z-m5CROSNZE', // id from youtube link example: https://www.youtube.com/watch?v=z-m5CROSNZE  
+  videoId: 'z-m5CROSNZE', // id from youtube link example: https://www.youtube.com/watch?v=z-m5CROSNZE
   callback: function() {
     //console.log("playerFinshed");
   }
 });
 // ############# mixITUp init ######################
-	$("#portfolio_grid").mixItUp();
+	$("#destinations_grid").mixItUp();
 
-	$(".s_portfolio li").on("click",function() {
+	$(".s_destinations li").on("click",function() {
 		$(this).removeClass("active");
 		$(this).addClass("active");
 	});
@@ -40,17 +40,17 @@ $('.video').YTPlayer({
 		type:"inline",
 		midClick: true
 	});
-	
+
 	// ################ ANIMATION ##############
-	
+
 	$(".top_text h1").addClass("fadeInDown animated");
 	$(".top_text p").addClass("fadeInUp animated");
 	$('.animation1').waypoint(function(down) {
 		$(this).addClass('animation');
 		$(this).addClass('fadeInUp');
 	}, { offset: '100%' });
-	
-	
+
+
 
 	function heightDetect() {
 		$(".top").css("height", $(window).height());
@@ -81,8 +81,8 @@ $('.video').YTPlayer({
 			$(".top_mnu li a").addClass("fadeInUp animated");
 		};
 	});
-//########### Portfolio popup content ####################
-	$(".portfolio_item").each(function(i) {
+//########### Destinations popup content ####################
+	$(".destinations_item").each(function(i) {
 		$(this).find("a.link").attr("href", "#work_" + i);
 		$(this).find(".podrt_descr").attr("id", "work_" + i);
 	});
@@ -91,7 +91,7 @@ $('.video').YTPlayer({
 
 	$(".top_mnu ul a, .top_text a.btn").mPageScroll2id();
 
-	
+
 	//########### slide toggle read more ####################
 	$(".stoggle").on("click",function() {
   $(".hide_more").animate({ opacity: 1.0 },200).slideToggle(500, function() {
@@ -109,10 +109,10 @@ $('.counter_number').counterUp({
 
 
 
-		
 
-/////############### GOOGLE MAP #################	
-var amsterdam=new google.maps.LatLng(52.395715,4.888916);	
+
+/////############### GOOGLE MAP #################
+var amsterdam=new google.maps.LatLng(52.395715,4.888916);
 function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
@@ -124,9 +124,9 @@ function initialize() {
     scaleControl: false,
     draggable: false,
           mapTypeId: google.maps.MapTypeId.ROADMAP
-		  
+
         }
-		
+
         var map = new google.maps.Map(mapCanvas, mapOptions)
 		map.set('styles', [
   {
@@ -253,9 +253,9 @@ var marker=new google.maps.Marker({
 
 marker.setMap(map);
       }
-	  
+
 google.maps.event.addDomListener(window, 'load', initialize);
 google.maps.event.addDomListener(window, "resize", function() {
  google.maps.event.trigger(map, "resize");
- map.setCenter(amsterdam); 
+ map.setCenter(amsterdam);
 });
