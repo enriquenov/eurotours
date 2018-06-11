@@ -112,12 +112,12 @@ $('.counter_number').counterUp({
 
 
 /////############### GOOGLE MAP #################
-var amsterdam=new google.maps.LatLng(52.395715,4.888916);
+var amsterdam=new google.maps.LatLng(-12.097136,-77.033213);
 function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
           center: amsterdam, //// Location
-          zoom: 8,
+          zoom: 14,
 		  scrollwheel: false,
     navigationControl: false,
     mapTypeControl: false,

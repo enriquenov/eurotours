@@ -645,8 +645,8 @@ section#packs{
 }
 .destinations_item img {
 	box-shadow: 4px 4px 10px #888;
-  width: 100%;
-	height: 200px;
+  width: 260px;
+	height: 180px;
 	-webkit-transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
@@ -732,8 +732,8 @@ section#packs{
     margin-top: 0;
 	}
   .podrt_descr img {
+		height: 400px;
     width: 100%;
-
 	}
 .modal-box-content {
     position: relative;
@@ -745,7 +745,7 @@ section#packs{
 .counter{
 	position:relative;
 	padding: 90px 0px 80px;
-	background:url(../images/bg1.jpg)no-repeat fixed;
+	background:url(../images/paquetes/paris-bg.jpg)no-repeat fixed;
 	background-position: 50% 50% !important;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -770,27 +770,6 @@ section#packs{
 	text-align:center;
 	margin-bottom:20px;
 }
-.count_icon{
-	width:90px;
-	height:90px;
-	display:inline-block;
-	border-radius:50%;
-}
-.count_icon span{
-	color:#fff;
-	font-size:41px;
-	line-height:90px;
-}
-.counter_number{
-	display:block;
-	font-size: 81px;
-	font-weight:700;
-	font-family: 'Montserrat', sans-serif;
-	text-align:center;
-	color:#fff;
-	line-height:60px;
-	margin-top: 40px;
-}
 .c_line{
 	width: 30%;
     margin: 40px auto 30px;
@@ -799,10 +778,11 @@ section#packs{
 }
 .c_item p{
 	color:#fff;
-	font-size:16px;
+	font-size:30px;
 	text-transform:uppercase;
 	font-weight:700;
 	font-family: 'Montserrat', sans-serif;
+	padding-top: 15px;
 }
 
 /* ==========================================================
@@ -1335,13 +1315,14 @@ label {
 .sf-logo{
 	float:left;
 	border-right:1px solid #fff;
-	    padding: 15px 0px;
-    margin-top: 2px;
+  padding: 8px 0px;
+  margin-top: 2px;
 	padding-right:25px;
 	padding-left:15px;
 }
 .sf-logo img{
-	max-width:100%;
+	max-width:80px;
+	height: auto;
 }
 .address{
 	float:left;
