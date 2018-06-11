@@ -793,12 +793,12 @@ section#packs{
 }
 .team_item{
 	padding:0px;
-
+	/* margin: 10px; */
 }
 
 .team_item img {
-    width: 100%;
-	}
+  width: 100%;
+}
 .profile_links{
 	margin-top:30px;
 }
