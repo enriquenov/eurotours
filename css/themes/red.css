@@ -30,25 +30,25 @@
 .feature_i{
 
 	border:2px solid #d64541;
-	
+
 }
 
 
 
 .feature_i:after {
-	
+
 	box-shadow: 0 0 0 2px #d64541;
-	
+
 }
 .feature_i:hover {
 	background: #d64541;
-	
+
 }
 
 
 .f_icon{
 	color:#d64541;
-	
+
 }
 
 /* ==========================================================
@@ -58,7 +58,7 @@
 .filter.active, .filter:hover{
 	background:#d64541;
   }
-  
+
   .portfolio_item .port_item_cont {
     background-color: rgba(214, 69, 65, 0.8);
 	}
@@ -71,15 +71,7 @@
 .c_line{
 	background:#d64541;
 }
-/* ==========================================================
-! OUR TEAM
-========================================================== */
 
-.team_item .team_item_cont {
-   
-    background-color: rgba(214, 69, 65, 0.8);
-   
-	}
 /* ==========================================================
  ! PRICE TABLE
 ===========================================================*/
@@ -101,7 +93,7 @@
 	}
 /* ==========================================================
 ! TIMELINE
-========================================================== */	
+========================================================== */
 .timeline_container .year span{
 	background:#d64541;
 }
@@ -111,22 +103,22 @@
   .timeline_container .left .timeline_item  .time_pin:before{
 	border:3px solid #d64541;
   }
-  
+
    .timeline_container .left .timeline_item:hover:before{
 	border-color: transparent transparent transparent #d64541;
   }
  .timeline_container .right .timeline_item  .time_pin:before{
-	
+
 	border:3px solid #d64541;
-	
+
   }
   .timeline_container .right .timeline_item:hover:before{
 	border-color: transparent #d64541 transparent transparent;
-	
+
   }
  .timeline_container .left .timeline_item:hover:before{
 	border-color: transparent transparent transparent #d64541;
-	
+
   }
 
 
@@ -135,7 +127,7 @@
 ========================================================== */
 input[type=text]:focus, textarea:focus {
 	border-bottom:2px solid #d64541;
-	
+
 }
 .inner-addon .fa {
   color:#d64541;
@@ -150,7 +142,7 @@ input[type=text]:focus, textarea:focus {
 .social-wrap a:hover{
 	color:#d64541;
 	border:2px solid #d64541;
- 
+
 }
 /* ==========================================================
 ! COMMENTS
@@ -173,5 +165,5 @@ input[type=text]:focus, textarea:focus {
 ========================================================== */
 .purchase_i{
 	border:2px solid #6d363c;
-	
+
 }
