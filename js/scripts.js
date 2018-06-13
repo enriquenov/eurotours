@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 	"use strict";
 		$(".loader_inner").fadeOut();
-		$(".loader").delay(400).fadeOut("fast");
+		$(".loader").delay(600).fadeOut(200);
 
 // ######### video background #########
 $('.video').YTPlayer({
