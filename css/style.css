@@ -802,13 +802,14 @@ section#packs{
 	height: 100%;
 }
 .team_item .team_item_cont {
-	margin-top: 20px;
+	box-shadow: 0px 2px 3px rgba(125, 125, 125, 0.2);
+	padding: 20px 0;
   text-align: center;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 	color: #222;
 }
-.team_item:hover .team_item_cont  {
+.team_item:hover .team_item_cont:first-child {
   opacity: 1;
   transform: scale(1.05);
 }
@@ -832,6 +833,9 @@ section#packs{
 	font-weight:400;
 	font-size:14px;
 	text-transform:uppercase;
+}
+.team_item_cont p span{
+	color: #faaf05;
 }
 
 /* ==========================================================
